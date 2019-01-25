@@ -15,3 +15,12 @@ function findZeros(input) {
         return true;
     }
 }
+
+function divByThree(input) {
+    var result = input % 3;
+    if (result === 0 && input !=0){
+        return true;
+    } else {
+        return false;
+    }
+}
