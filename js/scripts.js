@@ -41,17 +41,17 @@ function divByThree(input){
 }
 
 function convertInput(input){
-    var numArray = [];
+    var numberArray = [];
     for (var i = 0; i <= input; i++) {
       if (divByThree(i) === true) {
-        numArray.push("I'm sorry, Dave! I am afraid i cant do that.");
+        numberArray.push("I'm sorry, Dave! I am afraid i cant do that.");
       } else if ( findOnes(i) === true) {
-        numArray.push("Boop!");
+        numberArray.push("Boop!");
       } else if (findZeros(i) === true) {
-        numArray.push("Beep!");
+        numberArray.push("Beep!");
       } else {
-        numArray.push(i);
+        numberArray.push(i);
       }
     }
-    return numArray;
+    return numberArray;
 }
