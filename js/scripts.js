@@ -1,3 +1,18 @@
+
+$(document).ready(function(){
+
+  $("#intakeForm").on("submit", function(event){
+    event.preventDefault();
+    var inputNumber = $("#inputNumber").val();
+    var resultArray = convertInput(inputNumber);
+    var result = "";
+    for (var i = 0; i < resultArray.length; i++) {
+        result += resultArray[i] + " ";
+    }
+    $("#output").show(result)
+  });
+});
+
 function findOnes(input){
     var result = input.toString().indexOf(1);
     if (result === -1) {
@@ -7,7 +22,7 @@ function findOnes(input){
     }
 }
 
-function findZeros(input) {
+function findZeros(input){
     var result = input.toString().indexOf(0);
     if (result === -1) {
         return false;
@@ -16,11 +31,27 @@ function findZeros(input) {
     }
 }
 
-function divByThree(input) {
+function divByThree(input){
     var result = input % 3;
     if (result === 0 && input !=0){
         return true;
     } else {
         return false;
     }
+}
+
+function convertInput(input){
+    var numArray = [];
+    for (var i = 0; i <= input; i++) {
+      if (divByThree(i) === true) {
+        numArray.push("I'm sorry, Dave! I am afraid i cant do that.");
+      } else if ( findOnes(i) === true) {
+        numArray.push("Boop!");
+      } else if (findZeros(i) === true) {
+        numArray.push("Beep!");
+      } else {
+        numArray.push(i);
+      }
+    }
+    return numArray;
 }
