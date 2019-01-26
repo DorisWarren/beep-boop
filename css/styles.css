@@ -1,0 +1,29 @@
+body {
+  background-color: grey;
+  border-radius: 8px;
+
+}
+.jumbotron {
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Courier New", Courier, monospace;
+
+}
+.result {
+  background-color: light grey;
+  opacity: .10;
+  border-radius: 4px;
+}
+#submitButton {
+  border-radius: 5px;
+  font-family: "Courier New", Courier, monospace;
+}
+#intakeForm {
+  background: rgb(116,164,103);
+  opacity: .8;
+  color: #1e0b01;
+  border-radius: 3px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  padding: 5px;
+}

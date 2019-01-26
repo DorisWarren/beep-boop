@@ -9,7 +9,7 @@ $(document).ready(function(){
     for (var i = 0; i < resultArray.length; i++) {
         result += resultArray[i] + " ";
     }
-    $("#output").show(result)
+    $("#result").text(result);
   });
 });
 
@@ -22,7 +22,7 @@ function findOnes(input){
     }
 }
 
-function findZeros(input){
+function findTwos(input){
     var result = input.toString().indexOf(0);
     if (result === -1) {
         return false;
@@ -47,7 +47,7 @@ function convertInput(input){
         numberArray.push("I'm sorry, Dave! I am afraid i cant do that.");
       } else if ( findOnes(i) === true) {
         numberArray.push("Boop!");
-      } else if (findZeros(i) === true) {
+      } else if (findTwos(i) === true) {
         numberArray.push("Beep!");
       } else {
         numberArray.push(i);
