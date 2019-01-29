@@ -2,7 +2,7 @@
 
 #### _Week three independent project, 1/25/19_
 
-#### _By _**Doris Warren**_
+####  By _**Doris Warren**_
 
 ## Description
 
@@ -12,7 +12,7 @@
 * _Numbers that contain a 4: all digits are replaced with Beep, Boop, 2, I am sorry Dave! I am afraid i cant do that.,4
 
 
-## Setup/Installation Requirement_
+## Setup/Installation Requirement
 
 * _Clone on Github_
 * _Open in preferred text editor_
@@ -55,4 +55,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.*
 
 
-Copyright (c) **_ 2019 Doris Warren_**
+Copyright (c) **_2019 Doris Warren_**
