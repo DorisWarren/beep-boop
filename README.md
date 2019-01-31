@@ -6,33 +6,33 @@
 
 ## Description
 
-This is a web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number with the following exceptions:
+_This is a web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number with the following exceptions:_
 * _Numbers that contain a 0 are replaced (all digits) with "Beep!"_
 * _Numbers that contain a 1 are replaced (all digits) with "Boop!"_
 * _Numbers divisible by 3 are replaced with "I'm sorry, Dave. I'm afraid I can't do that."_
 
 ## Project Specs
 
-* Program replaces all 0 with "Beep!"
-  _Example input: 0_
-  _Example Output: ["Beep!"]_
+* _Program replaces all 0 with "Beep!"_
+*  _Example input: 0_
+*  _Example Output: ["Beep!"]_
 
-* Program replaces all numbers with 1's with "Boop!"
-  _Example input: 1_
-  _Example Output: ["Boop!"]_
+* _Program replaces all numbers with 1's with "Boop!"_
+*  _Example input: 1_
+*  _Example Output: ["Boop!"]_
 
-* Program replaces all numbers divisible by 3 with text
-  _Example input: "3"_
-  _Example Output: (I'm sorry Dave I just can't do that)_
+* _Program replaces all numbers divisible by 3 with text_
+*  _Example input: "3"_
+*  _Example Output: (I'm sorry Dave I just can't do that)_
 
-* Program breaks down the inputted number into an array counting up to the inputted number
-  _Example input: 10_
-  _Example Output: [0,1,2,3,4,5,6,7,8,9,10]_    
+* _Program breaks down the inputted number into an array counting up to the inputted number_
+*  _Example input: 10_
+*  _Example Output: [0,1,2,3,4,5,6,7,8,9,10]_    
 
-* Program will run through the new array applying rules (1-3) to each element of the array.
-  _Example input: 4_
-  _Example output: [Beep, Boop, "Im sorry Dave I just can't do that",4,5]_
-* Program will the the converted array, push it to a string, and give it back to the user as _Robo_ language.
+* _Program will run through the new array applying rules (1-3) to each element of the array._
+*  _Example input: 4_
+*  _Example output: [Beep, Boop, "Im sorry Dave I just can't do that",4,5]_
+* _Program will the the converted array, push it to a string, and give it back to the user as language._
 
 ## Setup/Installation Requirement
 
