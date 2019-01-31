@@ -13,10 +13,6 @@ This is a web application that takes a number from a user and returns a range of
 
 ## Project Specs
 
-* Program breaks down the inputted number into an array
-  _Example Input: 10_
-  _Example Output: [0, 1, 2 , 3, 4, 5, 6, 7, 8, 9, 10]_
-
 * Program replaces all 0 with "Beep!"
   _Example input: 0_
   _Example Output: ["Beep!"]_
@@ -36,7 +32,7 @@ This is a web application that takes a number from a user and returns a range of
 * Program will run through the new array applying rules (1-3) to each element of the array.
   _Example input: 4_
   _Example output: [Beep, Boop, "Im sorry Dave I just can't do that",4,5]_
-* Program will the the converted  array, push it to a string, and give it back to the user as _Robo_ language.
+* Program will the the converted array, push it to a string, and give it back to the user as _Robo_ language.
 
 ## Setup/Installation Requirement
 
